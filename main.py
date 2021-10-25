@@ -181,7 +181,9 @@ def main():
                     global_step += 1
             
             logger.info("\nTesting on validation set...")
-            f1, report = evaluate_model(model, val_data, label_list, args.eval_batch_size, device)
+            f1, report, y_true, y_pred = evaluate_model(model, val_data, label_list, args.eval_batch_size, device)
+            print("val_examples  :  ", val_examples[0].text_a, " SEP ", )
+            print("y_pred  :  ", y_pred)
             if f1 > best_val_f1:
                 best_val_f1 = f1
                 logger.info("\nFound better f1=%.4f on validation set. Saving model\n" %(f1))
@@ -205,6 +207,7 @@ def main():
             eval_examples = processor.get_test_examples(args.data_dir)
         else:
             raise ValueError("eval on dev or test set only")
+        print(eval_examples)
         eval_features = convert_examples_to_features(
             eval_examples, label_list, args.max_seq_length, model.encode_word)
         
@@ -213,8 +216,8 @@ def main():
         logger.info("  Batch size = %d", args.eval_batch_size)
         
         eval_data = create_dataset(eval_features)
-        f1_score, report = evaluate_model(model, eval_data, label_list, args.eval_batch_size, device)
-
+        f1_score, report, y_true, y_pred = evaluate_model(model, eval_data, label_list, args.eval_batch_size, device)
+        print(y_pred)
        
         logger.info("\n%s", report)
         output_eval_file = os.path.join(args.output_dir, "eval_results.txt")

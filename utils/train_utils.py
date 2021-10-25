@@ -117,7 +117,8 @@ def evaluate_model(model, eval_dataset, label_list, batch_size, device):
           F1_score: Macro-average f1_score on the evaluation dataset.
           Report: detailed classification report 
      """
-
+#      print(eval_dataset.shape)
+#      print(eval_dataset)
      # Run prediction for full data
      eval_sampler = SequentialSampler(eval_dataset)
      eval_dataloader = DataLoader(
@@ -129,7 +130,7 @@ def evaluate_model(model, eval_dataset, label_list, batch_size, device):
      y_pred = []
 
      label_map = {i: label for i, label in enumerate(label_list, 1)}
-
+     print(label_map)
      for input_ids, label_ids, l_mask, valid_ids in eval_dataloader:
 
           input_ids = input_ids.to(device)
@@ -158,8 +159,8 @@ def evaluate_model(model, eval_dataset, label_list, batch_size, device):
                assert len(temp_1) == len(temp_2)
                y_true.append(temp_1)
                y_pred.append(temp_2)
-
+#      print(y_true, y_pred)
      report = classification_report(y_true, y_pred, digits=4)
      f1 = f1_score(y_true, y_pred, average='Macro')
 
-     return f1, report
+     return f1, report, y_true, y_pred

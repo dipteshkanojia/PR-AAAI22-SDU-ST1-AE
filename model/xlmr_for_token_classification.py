@@ -2,6 +2,7 @@ from fairseq.models.roberta import XLMRModel
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+# import torch.optim as Optim
 
 class XLMRForTokenClassification(nn.Module):
 
@@ -42,6 +43,7 @@ class XLMRForTokenClassification(nn.Module):
         transformer_out, _ = self.model(inputs_ids, features_only=True)
 
         out_1 = F.relu(self.linear_1(transformer_out))
+#         out_1 = Optim.Adam(self.model.parameters(), lr=0.001)
         out_1 = self.dropout(out_1)
         logits = self.classification_head(out_1)
 
