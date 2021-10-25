@@ -1,0 +1,10 @@
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.model_*/*.pt
+*/*.pt
+*/model.pt
+*.pt
+pretrained_models/xlmr.base/sentencepiece.bpe.model
+pretrained_models/xlmr.large/sentencepiece.bpe.model
+*sentencepiece*
