@@ -1,7 +1,0 @@
-           precision    recall  f1-score   support
-
-       LF     0.2000    0.1481    0.1702        27
-       AN     0.7572    0.8397    0.7964       156
-
-micro avg     0.6995    0.7377    0.7181       183
-macro avg     0.6750    0.7377    0.7040       183
