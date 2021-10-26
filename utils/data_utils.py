@@ -68,7 +68,8 @@ class NerProcessor:
         label = []
 
         for i, line in enumerate(f, 1):
-            if not line.strip() or len(line) == 0 or line.startswith('-DOCSTART') or line[0] == "\n" or line[0] == '.':
+            #if not line.strip() or len(line) == 0 or line.startswith('-DOCSTART') or line[0] == "\n" or line[0] == '.':
+            if not line.strip() or len(line) == 0 or line.startswith('-DOCSTART') or line[0] == "\n":
                 if len(sentence) > 0:
                     data.append((sentence, label))
                     sentence = []
@@ -90,7 +91,7 @@ class NerProcessor:
 
     def _create_examples(self, lines, set_type):
         examples = []
-
+        
         for i, (sentence, label) in enumerate(lines):
             guid = "%s-%s" % (set_type, i)
             text_a = ' '.join(sentence)

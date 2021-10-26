@@ -7,6 +7,7 @@ import logging
 import os
 import random
 import sys
+import pandas as pd
 
 import numpy as np
 import torch
@@ -29,6 +30,22 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+def make_prediction(input_objects, y_true, y_pred, path):
+    """
+    input: 
+    output: a dataframe [sentence, y_true, y_pred]
+    """
+    filename = "/predictions.csv"
+    path = path + filename
+    sentences = [obj.text_a for obj in input_objects ]
+    
+    df_pred = pd.DataFrame()
+    
+    df_pred["Text"] = sentences
+    df_pred["Y_true"] = y_true
+    df_pred["Y_pred"] = y_pred
+    
+    df_pred.to_csv(path, index=False, sep="\t")
 
 
 def main():
@@ -217,7 +234,9 @@ def main():
         
         eval_data = create_dataset(eval_features)
         f1_score, report, y_true, y_pred = evaluate_model(model, eval_data, label_list, args.eval_batch_size, device)
-#         print(y_pred)
+        #         print(y_pred)
+        if(args.eval_on == "test"):
+            make_prediction(eval_examples, y_true, y_pred, args.output_dir)
        
         logger.info("\n%s", report)
         output_eval_file = os.path.join(args.output_dir, "eval_results.txt")

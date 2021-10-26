@@ -161,6 +161,6 @@ def evaluate_model(model, eval_dataset, label_list, batch_size, device):
                y_pred.append(temp_2)
 #      print(y_true, y_pred)
      report = classification_report(y_true, y_pred, digits=4)
-     f1 = f1_score(y_true, y_pred, average='Macro')
+     f1 = f1_score(y_true, y_pred, average='macro')
 
      return f1, report, y_true, y_pred
