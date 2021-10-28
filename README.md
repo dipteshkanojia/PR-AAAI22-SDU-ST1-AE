@@ -9,7 +9,6 @@
 ```bash
 export PARAM_SET=base # change to 'large' to use the XLM-R large architecture
 
-# clone the repo
 wget -P pretrained_models https://dl.fbaipublicfiles.com/fairseq/models/xlmr.$PARAM_SET.tar.gz
 tar xzvf pretrained_models/xlmr.$PARAM_SET.tar.gz  --directory pretrained_models/
 rm -r pretrained_models/xlmr.$PARAM_SET.tar.gz
