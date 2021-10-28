@@ -239,7 +239,8 @@ def main():
             make_prediction(eval_examples, y_true, y_pred, args.output_dir)
        
         logger.info("\n%s", report)
-        output_eval_file = os.path.join(args.output_dir, "eval_results_inference.txt")
+        #output_eval_file = os.path.join(args.output_dir, "eval_results.txt")
+        output_eval_file = os.path.join(args.output_dir, args.eval_filename)
         with open(output_eval_file, "w") as writer:
             logger.info("***** Writing results to file *****")
             writer.write(report)
