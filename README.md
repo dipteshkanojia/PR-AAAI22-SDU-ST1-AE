@@ -1,3 +1,24 @@
+## Requirements 
+* `python 3.6+`
+* `torch 1.x`
+* `fairseq`
+* `pytorch_transformers` (for AdamW and WarmpUpScheduler)
+
+## Setting up
+
+```bash
+export PARAM_SET=base # change to 'large' to use the XLM-R large architecture
+
+# clone the repo
+wget -P pretrained_models https://dl.fbaipublicfiles.com/fairseq/models/xlmr.$PARAM_SET.tar.gz
+tar xzvf pretrained_models/xlmr.$PARAM_SET.tar.gz  --directory pretrained_models/
+rm -r pretrained_models/xlmr.$PARAM_SET.tar.gz
+```
+
+## Training and evaluating
+The code expects the data directory passed to contain 3 dataset splits: `train.txt`, `valid.txt` and `test.txt`.
+
+
 # SDU@AAAI-22 - Shared Task 1: Acronym Extraction
 
 This repository contains the acronym extraction training and development set along with the evaluation scripts for the [acronym extraction task at SDU@AAAI-22](https://sites.google.com/view/sdu-aaai22/shared-task).
