@@ -18,14 +18,14 @@ rm -r pretrained_models/xlmr.$PARAM_SET.tar.gz
 The code expects the data directory passed to contain 3 dataset splits: `train.txt`, `valid.txt` and `test.txt`.
 
 ```
-python main.py --data_dir=<folder with train, dev, test split files>/ --task_name=ner --output_dir=<folder where model will be saved>/ --max_seq_length=512 --num_train_epochs 1 --do_eval --warmup_proportion=0.1 --pretrained_path pretrained_models/xlmr.base/ --learning_rate 0.00007 --eval_on test --train_batch_size 4 --dropout 0.2
+python main.py --data_dir=<folder with train, dev, test split files>/ --task_name=ner --output_dir=<folder where model will be saved>/ --max_seq_length=512 --num_train_epochs 1 --do_eval --warmup_proportion=0.1 --pretrained_path pretrained_models/xlmr.base/ --learning_rate 0.00007 --eval_on test --train_batch_size 4 --dropout 0.2 --eval_filename=eval_results.txt
 ```
 
 ## Inferencing
 * To obtain inference from saved models 
 
 ```
-python main.py --data_dir=<folder with train, dev, test split files>/ --task_name=ner --output_dir=<folder where the saved model is present>/ --max_seq_length=512 --do_eval --pretrained_path pretrained_models/xlmr.base/ --eval_on test
+python main.py --data_dir=<folder with train, dev, test split files>/ --task_name=ner --output_dir=<folder where the saved model is present>/ --max_seq_length=512 --do_eval --pretrained_path pretrained_models/xlmr.base/ --eval_on test --eval_filename=eval_results_infer.txt
 ```
 
 # SDU@AAAI-22 - Shared Task 1: Acronym Extraction
