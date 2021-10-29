@@ -35,8 +35,8 @@ def make_prediction(input_objects, y_true, y_pred, path):
     input: 
     output: a dataframe [sentence, y_true, y_pred]
     """
-    filename = "/predictions.csv"
-    path = path + filename
+    # filename = "/predictions.csv"
+    # path = path + filename
     sentences = [obj.text_a for obj in input_objects ]
     
     df_pred = pd.DataFrame()
@@ -236,7 +236,7 @@ def main():
         f1_score, report, y_true, y_pred = evaluate_model(model, eval_data, label_list, args.eval_batch_size, device)
         #         print(y_pred)
         if(args.eval_on == "test"):
-            make_prediction(eval_examples, y_true, y_pred, args.output_dir)
+            make_prediction(eval_examples, y_true, y_pred, args.output_dir+"/"+args.pred_filename)
        
         logger.info("\n%s", report)
         #output_eval_file = os.path.join(args.output_dir, "eval_results.txt")

@@ -109,7 +109,11 @@ def add_xlmr_args(parser):
      parser.add_argument('--eval_filename',
                         default="eval_results.txt",
                         type=str,
-                        help= "specify filine name for evaluation during training/inference")                              
+                        help= "specify file name for evaluation during training/inference")
+     parser.add_argument('--pred_filename',
+                        default="predictions.csv",
+                        type=str,
+                        help= "specify filename for predictions generated from the model.")                            
      return parser
 
 
