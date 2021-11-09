@@ -1,0 +1,499 @@
+text	ID
+The label restricted means the model is restricted to recovering rules that have been seen in training data. LR = labeled recall. LP = labeled	1
+We have followed their methodology as best as we could, using the same WordNet (WN) categories and the same corpora.	2
+adaptation scenario. Duan et al (2009) proposed a Domain Adaptation Machine (DAM) method to learn a Least-Squares SVM classifier for target do-	3
+ Actes de la 13e Confe?rence sur le Traitement Automatique des Langues Naturelles (TALN), pages 20?42.	4
+TGTM P=p,pk ,b   TGTM PR=pr ,  pkr ,  b r   TGTM PL =p l ,  ph l ,  b l   TGTM PW=pw, pkw, bw 	5
+MIRA/AROW requires selecting the loss function `(w) so that wt can be solved in closed-form, by a quadratic program (QP), or in some other way that is better than linearizing.	6
+ 1 Introduction Information extraction (IE) systems generally consist of multiple interdependent components, e.g., en-	7
+117 d?eriv?es) (AP (ADJ thiazidiques) (COORD (PONCT ,) (NP (DET les) (ADV plus) (ADJ accessibles)) (PONCT ,) (AP (ADJ disponibles)))) (PP (P sous forme de) (NP (NC m?edicaments) (AP (ADJ g?en?eriques)))))))))	8
+2002. The concaveconvex procedure (CCCP). In Proc.	9
+most related words pop-up. Then the documents are re-ranked about their term frequency (TF) values (G. Salton and C. Buckley, 1988) and contextual infor-	10
+in part by ONR grant number N00014-95-1-1164,  and has been done in collaboration with the US  Navy's NCCOSC RDT&E Division (NRaD), Ascent  Technologies, Mitre Corp., MRJ Corp., and SRI In- 	11
+approach.  The Minimum Token Margin (MTM) strategy is a variant of the margin sampling strategy introduced	12
+food(FOOD) artifact(AFT) article(ART)  location(LOC) psych_feature(PSY)  cognition(COG) feeling(FEEL)  motivation(MOT) abstraction(ABS) 	13
+m } using standard support vector machine (SVM) training (holding A fixed), and then make a simple	14
+son. One is based on chi-square value and the other is based on Pointwise Mutual Information (PMI). 	15
+concerned with video lecture viewing only) before 11 Figure 4: Variation of Average Information Processing Indices(IPI) for Video 4-6 Figure 5: Variation of Average Information Processing Indices(IPI) for the full course	16
+Figure 1. Annotated Syntax Tree  (AST) and Phrase Levels (PL). 	17
+Num. of Friendships 265 Average Clustering Coefficient (ACC) 0.42 Diameter 12 Table 1: Statistical information of our Foursquare dataset.	18
+number of phrase pairs that can be extracted. We observe that it (OEF) is able to find more than 14% more phrase pairs than heuristic methods and	19
+? Frequency-based: LUHN (Luhn, 1958) score(S) = maxci?{clusters(S)}{csi}, where	20
+resource presented here implements formal semantic descriptions of verbs in the Web Ontology Language (OWL) and exploits its reasoning potential based on Description Logics (DL) for the disambiguation of verbs in context, since before the correct sense of a verb can be reliably	21
+the noun phrase (NP) rule, a top-down parser is delaying making any commitments about the category following the determiner (DT). This delay in predic-	22
+for test year 2010 (train on 2009), polarity task.  SemTree combined with FWD (SemTreeFWD) generally gives the best performance in both	23
+Marcu (2007) note that none of the tens of papers published over the last five years has shown that significant decreases in alignment error rate (AER) result in significant increases in translation perfor-	24
+"""bridge"" between this bilingual word pair. This  leads us to use the term frequency(TF) mea-  sure."	25
+ 4 Evaluation and Experiments We use the General Inquirer (GI)8 data for evaluation.	26
+We ran our experiments with three corpora in different languages and representing different textual typologies: the British National Corpus (BNC), a ? bal-	27
+the same discourse relation annotation style over different domain corpora: PDTB is annotated on top of Wall Street Journal (WSJ) corpus (financial news-wire domain); and it is aligned with Penn	28
+ 6 Related Work  Boosting is a machine learning (ML) method that  has been well studied in the ML community 	29
+MOVE is a label for complex events that con-  sists o f  maximal ly  three sub-events,  namely  START, CHPOS (CHANGE OF POSITION), and STOP,  where the first and the last sub-event are optional 	30
+>puncS Hertz equipment is a major supplier of rental equipment N/N N S\N (S\S)/N N/N N (N\N)/N N/N N > >	31
+ Several algorithms have been evaluated using 80 multiple-choice synonym questions taken from the Test of English as a Foreign Language (TOEFL). An example of	32
+halcea and Nataste (2012)). In our framework, we train a Neural Language Model (NLM) on yearly corpora to obtain word vectors for each year	33
+summarizing the work of the Corpora and Performance  Evaluation Committee (CPEC) of the DARPA Spoken Language  Systems (SLS) Program, with specific reports from several  working groups which have been dealing with various aspects 	34
+robust and the failure of matching produces no results.  On the other hand, statistical learning model (SLM) can  deal with unexpected cases during designing and 	35
+Statistical model (S) O O O O O O O O  Cooperative(CPR)  O   O O  O  Corrective(COR)   O  O  O O  Self-directing(SFD)    O  O O O 	36
+Among  three state-of-the-art systems we have, the best Fscores of single character location (SCL) and single character person (SCP) are 43.63% and 43.48% 	37
+5. Introducing background knowledge via CCMs [30 min]   We will look at ways in which Constrained Conditional Models (CCMs)can be used to  augment probabilistic models with declarative constraints in order to support decisions 	38
+bor.hodoscek@gmail.com Abstract Regarding the construction of an ontology of Japanese lexical properties (JLP-O) as fundamental in terms of establishing a conceptual framework to guide and facilitate the construction of a large-scale	39
+Abstract  This paper presents a new approach  based on Equivalent Pseudowords (EPs)  to tackle Word Sense Disambiguation 	40
+phrase-based decoder that has been augmented to translate ambiguous input given in the form of a confusion network (CN), a weighted finite state representation of a	41
+BACKGROUN D The LOLITA (Large-scale, Object-based, Linguistic Interactor, Translator, and Analyser) system is de signed as a general purpose Natural Language Processing (NLP) system and has been under development a t the University of Durham since 1986 .	42
+al. ( 2008), on the other hand, include features from the grammar in a maximum entropy (ME) classifier to predict new lexical entries for the	43
+ select_id_schema(Sign,Sit,Phrase,NewSit) :-  id_schema(ID),  extend~sit (Sit,NewS\]l), 	44
+different tags: B-L (Beginning of a literal chunk), I-L (Inside of a literal chunk), B-I (Beginning an Idiomatic chunk), I-I (Inside an Idiomatic chunk), O (Outside a chunk).	45
+Besides, other tools such as ELAN2 or Anvil3 are available as well, as are tool kits such as the Annotation Graph Toolkit (AGTK)4 or the NITE XML Toolkit.5 While multimodal annotation	46
+Eparl+NC no 29.28 (0.11) 55.28 (0.13) Eparl+NC yes 29.26 (0.10) 55.44 (0.29) Table 1: Results of the study on number translation (NT) from English to French	47
+Xue and Palmer, 2005). The present version  PCTB5 (PCTB Version 5), contains 18,782 sentences, 507,222 words, 824,983 Hanzi and 890 	48
+Proper noun (PropN): yes when the description has a capitalized initial.  Restrictive postmodification (RPostm): yes if the definite description is modified by relative or associative clauses.	49
+ply it on substrings of names. In the English to Russian task, we report ACC (Accuracy in top-1) of 0.545,  Mean F-score of 0.917, and MRR (Mean Reciprocal  	50
+Lexico-syntactic properties of English Non-Deverbal Event Nouns (NDV E N),  Process Nouns (PR-N) and Result Nouns (RESN) and Non Event Nouns (NEN).	51
+dimensionality reduction. NG = ngrams, E = emoticon replacement, IR = informal register replacement, TL = tweet length, RT = retweet count, SVO = subject-verb-	52
+levels of the discourse tree. Segmented Discourse  Structure Theory (SDRT) is introduced (Asher,  1993) and the predictions of this theory are dis- 	53
+We describe two classifiers we have built for relevance. A Naive Bayes classifier (NB) was used as the baseline.	54
+On all test sets, and for both the evaluation metrics used, the results achieved by the classifier built from the automatically annotated training set (AA) produces lower error rates (Weighted FPR-FDR)	55
+Figure 1: The system combination architecture.  system prior weights and a language model (LM). 	56
+and its too slowly paced to be a thriller.  Question Classification (QC)What is the temperature at the center of the earth? numberWhat state did the Battle of Bighorn take place in?	57
+Table 3: AMT evaluation results. Numbers are percentages or counts. BL = baseline, SY = system, N-D = no decision, B=S = same sentence selected by baseline and system	58
+ From the annotation pipeline we extracted as features: the polar words (PolW) and their basic polarity (Pol); the sentiment annotations from LIWC	59
+There-fore, the end for the tram was sealed in the 1970s.] As an application example, a small corpus consisting of 21 newspaper articles is analyzed. The corpus belongs to the interdisciplinary pro-ject Future Mobility (FuMob), which is funded by the Excellent Initiative of the German federal and state governments. The methodological ap-proach consists of three steps, which are per-formed iteratively: (1) manual discourse-linguistic argumentation analysis, (2) semi-automatic Text Mining (PoS-tagging and linguis-tic multi-level annotation), and (3) data merge.	60
+~21   Proceedings of the Workshop on Discourse in Machine Translation (DiscoMT), pages 10?18, Sofia, Bulgaria, August 9, 2013.	61
+For instance, in (def4) a polar interrogative clauses  (I'olS) is detined as a verb-first clause (V1S), which  in (def3) is deiined as a main clause (MainS), which  in turn is defined as a clause (S).	62
+number of correct matched constituents in proposed parse  number of constituents in treebank parse  3) Crossing Brackets(CBs) ffinumber of constituents which violate constituent boundaries with a  constituent inthe treebank parse.	63
+ 1 Introduction Word Sense Disambiguation (WSD) is the process of resolving the meaning of a word unambiguously	64
+In order to represent gram-  mar rules distributively, we adopt categorial unifi-  cAtion grammar (CUG) Where eaclh category owns  its functional type.	65
+Translate has achieved very good results on the  Chinese-to-English translation tracks of NIST open  machine translation test (MT)5 and it ranks the first  on most tracks.	66
+ In earlier topic modeling work such as latent Dirichlet alocation (LDA) (Blei et al, 2003; Griffiths and Steyvers, 2004), documents are treated as bags of	67
+Apart from  other features, each modifier should be anno/atecl  with a pragmatic function feature (PRAGM), which  specifies why a modifier is used it: an NP.	68
+way as the above feature.  The Acoustic Features (AF) were extracted directly from the wave files using SoX: Minimum,	69
+factfinding? technology, Information Extraction (IE), to determine exactly what happened in each article:	70
+ Relations between function words and content words (e.g. specifier (SPR), marker complement (CMP), infinitival zu marker (PM)) are frequent and	71
+name along the path ? LCA (Lowest Common Ancestor) path that is from ORG name to its lowest common ancestor with PRO name	72
+1 The following abbreviations are used POSS = possessive prefix/suffix; LOC = locative suffix; OBV = obviative suffix; DIM = diminutive suffix; NUM = number marking suffix; IN	73
+the Brill tagger.  NNP = proper noun, CD = cardinal number,  CC = coordinating conjunction, JJ = adjective, VBG = verb,  gerund/present participle 	74
+natural_object(NOBJ) substance(SUB)  food(FOOD) artifact(AFT) article(ART)  location(LOC) psych_feature(PSY)  cognition(COG) feeling(FEEL) 	75
+the increase is.  Table 2 shows the average solve time (ST) for sentences with respect to the number of tokens in	76
+language processing. Specifically, stochastic finitestate transducers (SFSTs) have proved to be useful for machine translation tasks within restricted do-	77
+Inspired by our experience of dealing with different text classification problems, we decide to  employ a linear support vector machine (SVM) in  our NLI2013 system.	78
+ The transformation phase is done by applying singular value decomposition (SVD) to the initial term-by-sentence matrix defined as A = U?V T .	79
+Abstract WordNet, a widely used sense inventory for Word Sense Disambiguation(WSD), is often too fine-grained for many Natural Language	80
+Mihael Arcan and Paul Buitelaar Unit for Natural Language Processing, Digital Enterprise Research Institute (DERI) National University of Ireland Galway (NUIG)	81
+ For French, the main problem was to retrieve MWEs (Multi Word Expression) in pred data mode.	82
+General-type: region Specific type: RCC Spatial value: PP (proper part) Dynamic	83
+system of Conceptual Dependency (Schank 1975). Some of the  Conceptual Dependency (CD) s t r u c t u r e s  are passed on to a program  which expresses them in E n g l i s h .	84
+60  Proceedings of the 13th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL), pages 118?125, Seoul, South Korea, 5-6 July 2012.	85
+ Chapter 1 has the lowest pi?S score in the table, and also the highest bias (BS). One of the reasons for	86
+order to adapt them to process dialects. This paper adopts this general framework: we propose a method to build a lexicon of deverbal nouns for Tunisian (TUN) using MSA tools and resources as starting material.	87
+3 Approach Following this intuition, we fit a directed Gaussian graphical model (GGM) that simultaneously considers (i) each word?s embedding (obtained from	88
+In Proc. of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL). 	89
+"teacher for advice.    RESL (result): Mother protects her children from any danger."	90
+models. Among stochastic models, bi-gram and  tri-gram Hidden Markov Model (HMM) are  quite popular.	91
+els, which seamlessly incorporates graphbased and more general supervision by extending the posterior regularization (PR) framework.	92
+{alexispalmer,ponvert,jbaldrid,carlotasmith}@mail.utexas.edu Abstract Situation entities (SEs) are the events, states, generic statements, and embedded facts and	93
+ Conf. Computational Linguistics (COLING), pages 89?97.	94
+TO-DEATH).  VAg and related NPs/PPs (VAgRel) This is similar to VPa above, but for VAg.	95
+Reduced Sentences 0.121 0.055 4.89 0.027* 1.129 1.01 to 1.26 Constant 5.23 1.18 19.67 <0.000* 187.25 ADAG, n=242; HAG, n = 242; S.E = standard error; OR = Odds ratio or Exp(?); CI = confidence Interval.	96
+to learn coherent topics. To solve this problem, we build a Markov Random Field (MRF) regularized Latent Dirichlet Allocation (LDA)	97
+mensions. The counts were then transformed into Local Mutual Information (LMI) scores, an association measure that closely approximates the com-	98
+bringert@chalmers.se Abstract Grammatical Framework (GF) is a grammar formalism which supports interlingua-	99
+ Conf. on Language Resources and Evaluation (LREC), pages 697?702, Genoa, Italy, May.	100
+stantin, Evan Herbst, Moses: Open Source Toolkit for Statistical Machine Translation, Annual Meeting of the Association for Computational Linguistics (ACL), demonstration session, Prague, Czech Republic, June	101
+ In an effort to apply such models to noisy optical character recognition (OCR) text output, we endeavor to understand the effect	102
+the fragment space that can describe all the trees in Ms. Fragment Mining and Indexing (FMI) In Equation 1 it is possible to isolate the gradient ~w =?	103
+Section 3 for exact criteria), reporting  approximately 40% precision and 45% recall for  transitional probability (TP) and 50% precision and  53% recall for mutual information (MI) on the first 	104
+are at least four candidates: less studied (LS) languages, resource scarce (RS) languages, less computerized (LC) languages, and less privileged (LP) languages.	105
+thesauri: Macquarie, Moby, Oxford and Roget?s.  The inverse rank (InvR) metric allows a comparison to be made between the extracted rank list	106
+  1 Introduction  Word Sense Disambiguation (WSD) is wellknown as one of the more difficult problems in 	107
+FF-AUTO-NONE Fullform Auto None FF-DEFAULT-GRAM Fullform Default Auto (GRAM) FF-AUTO-GRAM Fullform Auto Auto (GRAM) FF-DEFAULT-SAO* Fullform Default Auto (SAO)	108
+The parameters are trained using the 764 Margin Infused Relaxed Algorithm (MIRA) (Crammer et al, 2006).	109
+ ? Activity Tree (AT): a tree-structure representing the current, past, and planned activities that	110
+ging from Merialdo (1994). The approach involved training a standard Hidden Markov Model (HMM) using the Expectation Maximization (EM) algo-	111
+email: {firstname.lastname} @itri.bton.ac.uk  Introduction ~,  WYSIWYM (What You See Is What You Meant) is a user interface technique which allows anauthor to create  and edit in a natural and simple way the knowledge contained in a generated document.	112
+and beyond, in several AI applications. Neel and Garzon (2010) show that the quality of a knowledge resource like WN affects the performance in recognizing textual entailment (RTE) and word-sense disambiguation (WSD) tasks.	113
+This measure combines two metrics. The first metric, predicted frequency (PF), estimates the degree to which a word appears to be used consis-	114
+Table 5: Participating teams and references to system descriptions. Abbreviations: BI=Bioinformatician, NLP=Natural Language Processing researcher, CS=Computer Scientist, LI=Linguist, ML=Machine Learning researcher.	115
+predictive ones among all our features. We used the Correlation based Feature Subset (CFS) selection method in WEKA for this purpose.	116
+In Ellen M. Voorhees and Donna K. Harman, editors, The Seventh Text Retrieval Conference (TREC-7), volume 7.	117
+currently concerns include Chinese personal  names( CN), transliterated foreign personal names( TFN)  and Chinese place names(CPN). They can not be 	118
+The results are reported for Same Sentence (SS) and Previous Sentence (PS) models, and the joined results for each of the arguments (ALL) as average	119
+some structural constraints which are mostly prag-  matic in natnre:  2based on PVM (parallel virtual madfine)  semRnb~ 	120
+ and Iryna Gurevych Ubiquitous Knowledge Processing (UKP) Lab Computer Science Department	121
+This paper describes the Universal Decompositional Semantics (Decomp) project, which aims to augments Universal Dependencies (UD) data sets with robust, scalable semantic annotations based in lin-	122
+of National Intelligence (ODNI) and the Intelligence Advanced Research Projects Activity (IARPA) via the Air Force Research Laboratory (AFRL) contract number FA8750-16-C-0114.	123
+nominal elements. For German, we see confusions with the object functions (accusative OA and dative objects DA), predicates (PD), and the EP function marking expletive pronouns in subject position.	124
+"trated in Figure 1. At the outset, the table (T1), the  pump (PU), the apprentice (you) and the compressor  (COMP) are in ""primary focus""."	125
+ Thirdly, most PROLOG implementations include a  version of metamorphosis grammars (MGs), a logic-  based formalism useful in particular for describing NL 	126
+  Machine Translation (prototype phase)  The machine translation (MT) sub-component  implements the hybrid MT paradigm, combining 	127
+for 4 of the 9 classes, and was usually competitive on the remaining 5 classes. WordNet (W.Net) consistently produced high precision, but with compar-	128
+as dependants. Dependency structures are suit-  ably depicted as a directed acyclic graph(DAG),  where arrows direct from dependants to gover- 	129
+These derivations were induced using a collapsed Gibbs sampler, which sampled from the posterior of a Dirichlet process (DP) defined over the subtree rewrites of each nonterminal.	130
+ For both these models, we use cost sensitive LibSVM with radial basis kernel function (RBF) as the learning algorithm (Hsu et al.,	131
+is also significant that this model?s paraphraser can be employed not only for MT but also for most natural language processing (NLP) applications.	132
+6.2 Methodology We conducted experiments on MUC-6, ACE-2004, and ACE Phrase-2 (ACE-2). We evaluated our sys-	133
+ALCOGRAM. ? P2E5N5S1, C T W D A I Common Logic Controlled English (CLCE) (Sowa 2004) is a language that can be translated into first-order logic with equality in the form of the Conceptual Graph	134
+text categorization tasks. The newer method of Latent Semantic Indexing (LSI) 3 (Deerwester et al.,	135
+non-terminals is extended by means of conditional and additive categories according to Combinatory Categorical Grammar (CCG) (Steedman, 1999). 	136
+ These models are trained only using negative entities which we refer to as Negative Entity (NE) objective. 	137
+main line of the narrative. This move is signaled  by the temporal focus (TF), and the entire deictic  center, returning to an established node in the 	138
+ 4.1 Task  The Spontaneous Scheduling Task (SST) databases  are a collection of dialogues in which two speak- 	139
+The Chinese text is segmented with a segmenter trained on CTB data using conditional random fields (CRF). Language models	140
+retrieval effectiveness. The following figure  shows the change of average precision (AvgP)  using CDQE (Model 2) along with the change of 	141
+level-2 domains) yet still did not sufficiently cover relevant subject fields identified by our users, such as IT, medicine and mechanical engineering. The Internal Classification for Standards (ICS) scheme was considered next, as it covers technical subject fields, but it was lacking with respect to legal and	142
+logical subject/object and its verb governor, General  Event (GE) on who did what when and where and  Predefined Event (PE) such as Management  Succession and Company Acquisition.	143
+ We cover two main thrusts: (i) a black-box evaluation of several NE taggers (commercial and research systems); and (ii) an error analysis of system performance. 2.1 Evaluation data Our evaluation data set contains three distinct sec-tions.  The largest component consists of publicly-available financial reports filed with the Securities and Exchange Commission (SEC), in particular the 2003 forms 10-K filed by eight Fortune 500 com-panies.  These corporate annual reports share the same subject matter as much business news: sales, profits, acquisitions, business strategies and the like.	144
+@math.canterbury.ac.nz Abstract We introduce Peripheral Diversity (PD) as a knowledge-based approach to achieve multi-	145
+SS 0.47 5.1 100 times faster than that of Tree Kernel, and the retrieval speed of Subpath Set (SS) is about 1,000 times faster than that of Tree Kernel.	146
+grammar (LTAG) (Bangalore and Joshi, 1999) and then extended to other lexicalized grammars, such as combinatory categorial grammar (CCG) (Clark, 2002) and Head-driven phrase structure grammar	147
+embeddings from the Neural Language Model of Collobert and Weston [2008] and word representations from random indexing (RI)1. These, however, were	148
+Finally, some Wikipages are redirections to other pages, e.g. SODA (SODIUM CARBONATE) redirects to SODIUM CARBONATE.	149
+ : : , .  :~..~. NAT =nat iona =ty .:~:~',,~,.~ . .:.-,~.~;~ SRC~.;ob I .~concrete-:,~ 	150
++ BD 67.4 67.0 67.2 + NEG + BD 67.4 67.1 67.3 Table 1: Results on development corpus: LP = labeled precision, LR = labeled recall, F1 = balanced F-measure	151
+Machine Translation. In 41st Annual Meeting of the Association for Computational Linguistics (ACL), pages 192?202, Sapporo, Japan.	152
+against three baselines. The first baseline was based on the minimum overlap (MinOv) of characters in consecutive scenes and corresponds closely to the	153
+by a rhetorical relation R, Triple=verb pair associated with a relation R in V 2 R, BG = Background, cont.=continuation, elab.=elaboration.	154
+contains two data sets, training and devtest, which were used for training and testing, respectively. Each of these sets is further divided into three domains: newswire (NWire), newspaper (NPaper), and broadcast news (BNews).	155
+Allocation (LDA), but using linguistic dependency information in place of simple features from bag of words (BOW) representations.	156
+Pseudo-disambiguation results for inverse selectional preferences (BNC as primary and secondary corpus, DISCR weighting). ER = Error rate; Cov = Coverage. 	157
+ Results and Analysis  A finite state machine (FSM) description of user be-  havior was used to analyze session data.	158
+is used to generate ground truth answers).  The Children?s Book Test (CBT) dataset, created by Hill et al (2016), contains 113,719 cloze-style	159
+ipants represent cognitive scenarios as schematic representations of events, objects, situations, or states of affairs. The participants are called frame elements (FEs) and are described in terms of semantic roles such as AGENT, LOCATION, or MANNER.	160
+do you have? for taskswitching (SWT) and poker-playing (PKR) respectively.	161
+Conjoined noun phrases are required to all  be members of the same semantic  class, which may be one of the set PERSON, PHYSOB (physical object), LOCNAME  (location name), ATTRNAME (attribute name), or MEASU (measurement unit). 	162
+mation is likely to be found). This is similar to  tasks such as named entity recognition (NER) or  part-of-speech tagging, where sequence modeling 	163
+this assumption.  In a synchronous TAG (STAG) the elementary structures are ordered pairs of TAG trees, with a	164
+3.2 Graph-based Approaches Laparra et al(2010) utilize the SSI-Dijkstra+ algorithm to align FN lexical units (LUs) with WN synsets.	165
+ 2.1 Multilingual Central Repository The Multilingual Central Repository (MCR)2 follows the model proposed by the EuroWordNet	166
+POL (politics) Belgium elections 2003 16 15107 15.4 SPO (sports) Kim Clijsters 9 9713 11.1 HIS (history) History of Belgium 3 8396 17.9 BUS (business) Belgium Labour Federation 9 4440 11.0	167
+study (usually as an elective) or not at all. At the  City University of New York (CUNY)?s Graduate  Center (the primary Ph.	168
+1992. Proceedings of the Fourth  Message Understanding Conference (MUC-$). Mor- 	169
+lemma(L)? and ? nonlem(NL)? systems for ran-	170
+to analyse the eects of applying pronominal anaphora resolution to Question Answering (QA) systems. 	171
+ To evaluate feature effectiveness, we group the features into seven groups: textual features (TX), utterance features (UT), pointing gesture fea-	172
+number of bilingual term pairs)  We compare our model with IBM Model 2  (IBM-2), and IBM Model 4 (IBM-4) implemented by GIZA++ (Och et al, 2003).	173
+predicted this outcome correctly in 70.37% of the cases (upper left cell). However,  IBL also predicted the outcome penultimate stress (PEN) in 25.26% of the words and  440 	174
+It is not useful to exploit latent  semantic analysis directly on the user-topic matrix  UR = UQ * QR , where UR represents how many  times each user is diffused for existing topic R (R 	175
+ Thus the determination of lexical scopes of  Complex Predicates (CPs) from a long consecutive sequence is indeed a crucial task.	176
+baseline adapted language model.  The Table 2 shows the word error rates (WERs) of experiments on the code switching lecture	177
+This section describes the two evaluation methods we employed ? average precision (AP) and correlation coefficient (CC).	178
+A block ?[] invokes both the inner and outer generations simultaneously in Bracket Model A (BM-A). 	179
+"In a third stage, they are put in a Multilingual Polyphraz Memory (MPM). A ""polyphrase"" is a structure"	180
+Semantic Information Retrieval (SIR) AQUA Sentiment Analysis in User Generated Discourse (SentAL) Internet der Dienste (THESEUS) ?	181
+6 Event Ordering TimeML defines three different types of links: subordinate (SLINK), temporal (TLINK), and aspectual (ALINK).	182
+Lapata, 2006). All systems were controlled to produce similar compression ratios (CR) for fair comparison.	183
+idealistic) practice of balancing and purging quirks.  6.2 Lexicography and Exploratory Data Analysis (EDA)  Statistics can be used for many different purposes.	184
+4 Experimental Setup 4.1 Corpus and Experimental Expressions We use the British National Corpus (BNC),4 automatically parsed using the Collins parser (Collins,	185
+redefined  While politicians all over the world want to  make Information Society Technologies (IST)  available and accessible in the language and locale 	186
+method to train large neural networks. We use mini-batch version RPROP (RMSPROP) (Hinton, 2012) to minimize the loss function.	187
+words not found in the dictionary, a Markov grammar that  computes the optimal ordering of the possible classes of all  words and a Wild Card Parser (WPC), i.e., a deterministic parser  based on a Context Free Grammar.	188
+ ? Conditional Random Fields (CRF) is the state  of art for named entity extraction, in the 	189
+Our Chinese  word segmentation system is based on three models: (a) word boundary token (WBT) model and (b)  triple context matching model for unknown word 	190
+ With the availability of Chinese Gigaword Corpus (CGC) and Word Sketch Engine (WSE) Tools (Kilgarriff, 2004).	191
+features are chosen due to their effectiveness and availability for on-line detection.  They are independent word probability (IWP), anti-word pair (AWP), word formation analogy Table 8	192
+1 Introduction RWTH?s main approach to System Combination (SC) for Machine Translation (MT) is a refined version of the ROVER approach in Automatic	193
+This is called empirical Bayesian estimation. Our approach differs from maximum a posteriori (MAP) estimation, since we re-estimate the parameters of	194
+1 Introduction Statistical machine translation (MT) uses large target language models (LMs) to improve the fluency of generated texts, and it is commonly	195
+Our approach to this problem is influenced by the named entity annotation in the Automatic Content Extraction (ACE) project (Consortium, 2002), in which ?	196
+ It is used for many natural language tasks, such as part of speech (POS) and named entity tagging (Toutanova and others, 2003; Carreras et al.,	197
+NC 91.0 99.1 89.5 92.1 99.7 90.7 Table 2: Attachment score for Java and the lexical feature set, where CO = convertible and NC = nonconvertible dependency trees.	198
+precisely the issue we address in this article. We concentrate on the task of automatically classifying NSUs, which we approach using machine learning (ML) techniques. Our aim	199
+ABSTRACT  French auxilliaries and clitics have been analysed  in the flame of U.C.G. (Unification Categorial Grammar). 	200
+ ? Word translation features (WT): ?	201
+(e.g. adjective bivs?i, which means former in both languages), (b) the term partial false friends (PFF) describes pairs that are polysemous and	202
+2 VIP targeted technologies  Current products for VIP such as screen readers mainly depend on speech synthesis or Braille solutions, e.g. ChromeVox [3], Windows-Eyes [4], or JAWS (Job Access With Speech) [5]. Braille displays 	203
+Peter Robinson; Philip Tuddenham; 3 Visualisation Scalable Vector Graphics (SVG)1 is a language for describing two-dimensional graphics and graphical	204
+Subset of significant adjacency pairs CORRECTTASKACTION?CORRECTTASKACTION;??EXTRADOMAINS?EXTRADOMAINT;?GROUNDINGS?GROUNDINGT;?ASSESSINGQUESTIONT?POSITIVEFEEDBACKS;??ASSESSINGQUESTIONS?POSITIVEFEEDBACKT;?QUESTIONT?STATEMENTS;?ASSESSINGQUESTIONT?STATEMENTS;?EXTRADOMAINT?EXTRADOMAINS;?QUESTIONS?STATEMENTT;?NEGATIVEFEEDBACKS?GROUNDINGT;?INCOMPLETETASKACTION?INCOMPLETETASKACTION;?POSITIVEFEEDBACKS?GROUNDINGT;??BUGGYTASKACTION?BUGGYTASKACTION 4 Models We learned three types of models using cross-validation with systematic sampling of training and testing sets.  4.1 First-Order Markov Model The simplest model we discuss is the first-order Markov model (MM), or bigram model (Figure 2). A MM that generates observation (state) sequence o1o2?ot is defined in the following way.	205
+We searched for four conditions: depression, bipolar disorder, post traumatic stress disorder (PTSD) and seasonal affective disorder (SAD).	206
+ ? If the key and response do not match, the category is incorrect (INC) ; if interactively assigned, a tall y appears in both the INC and XIC (interactive incorrect) columns .	207
+(ARG0) and ? Greenspan? as the object (ARG1) of the noun predicate ?	208
+(2014c): ? Italian - Romanian (IT-RO); ?	209
+1 Introduction Despite the advances in natural language processing (NLP), Word Sense Disambiguation (WSD) is still considered one of the most challenging prob-	210
+ ? Unstressed (US) average: Each feature is normalized by its mean value in the un-	211
+and a search procedure. For example, we can build a n-gram word language model (LM)?itself a large weighted FSA.	212
+The key reason to compute tsim under the equiprobability assumption is that we need not compute the MWBM, but may find just the maximum cardinality bipartite matching (MCBM), since all potential links have the same weight. An O(e	213
+10http://rapid-i.com/ classification problems, we were unable to achieve results with a Support Vector Machine (SVM) learner (libSVMLearner) using the Radial Base	214
+ First, the matching score of the matching two nodes, NMS (Node Match Score) is calculated with their node scores, NS1 and NS2,	215
+2007. CRFsuite: A fast implementation of Conditional Random Fields (CRFs), http://www.chokkan.org/software/crfsuite/.	216
+rithms can also be used in discriminative settings (Bellare et al, 2009; Ganchev et al, 2010) specifically for semi-supervised learning (SSL.) 	217
+It makes sense now that you explained it, but I never used an else if in any of my other programs .04 POSITIVE FEEDBACK (P) Second part complete. .11 QUESTION (Q) Why couldn?t I have said if (i<5) .11 STATEMENT (S) i is my only index .07  REQUEST FOR FEEDBACK (RF) So I need to create a new method that sees how many elements are in my array? .16 RESPONSE (RSP) You mean not the length but the contents .14 UNCERTAIN FEEDBACK WITH ELABORATION (UE) I?m trying to remember how to copy arrays .008 UNCERTAIN FEEDBACK (U) Not quite yet .008  3.2 Task action annotation The tutoring sessions were task-oriented, focusing on a computer programming exercise.	218
+nodes in their MRs mij . Then, after setting the context ci as the MR of the root node (MR(T ) ? ci),	219
+until the current sentence (PENT) and the word entropy for the conversation subsequent to the current sentence (SENT). We hypothesize that informative	220
+  1. PARADISEC (Pacific and Regional Archive for Digital Sources in Endangered Cultures): audio, video,  text and image resources for Australian and Pacific Island languages (Thieberger, Barwick, Billington, & 	221
+c, include latent variable models that simultaneously capture the semantics of words and sentences, such as latent semantic analysis (LSA) or latent Dirichlet alocation (LDA).	222
+ Abstract Minimum Error Rate Training (MERT) is a method for training the parameters of a log-	223
+A phonetic system represents sound segments as 3Phonemic and phonetic representations are given in the International Phonetic Alphabet (IPA). 	224
+word w is defined as the largest connected subgraph that contains w. For each content  9 Other thesauri have been used for WSD, e.g., the German Hallig-Wartburg (see Schmidt \[1988, 1991\])  and the Longman Lexicon of Contemporary English (LLOCE) (Chen and Chang, this volume). 	225
+the Switchboard corpus.1 The standard measure of error used in ASR is word error rate (WER), computed as 100(I + D + S)/R, where I,D and S are the number of inser-	226
+verbs, adject ives,  and others. Then a  separate  Keyword In Context  (KWIC) Index  was made for each part of speech.	227
+company was interested in knowledge discovery  approaches applicable to the data aggregated by its  Emergency Control System (ECS) in the form of  field service tickets.	228
+Italian - Romanian (IT-RO); ? Portuguese - Romanian (PT-RO); ?	229
+V (verb) 6946 81.9 85.8 PR (preposition) 5302 60.0 79.0 CONJ (conjunction) 2998 76.1 80.7 ADV (adverb) 2855 72.3 83.3	230
+lexicalized Baselines. In Proceedings of the ACL Workshop on Parsing German (PaGe), pages 40?46, Columbus, OH, USA.	231
+It consists mainly of four incremental (cas-  caded) processes that work on the blackboard-like  current conceptual structure (CCR). At first sight, 	232
+when reconcilable with Bias 1. Whenever the sentence or query has a verb phrase (VP) spanning roughly half of it, annotators seem to chunk be-	233
+Abbreviations NE = Named Entity CE = Correlated Entity EP = Entity Profile	234
+which can handle the non-projective trees present in the Irish data. In each case we report Labelled Attachment Score (LAS) and Unlabelled Attachment Score (UAS). 	235
+Table 1: A classification of grammar rules for the HPB model. PR = phrasal rule, HR = hierarchical rule, GR = glue rule.	236
+senses. Semantic role labeling is achieved using maximum entropy (MaxEnt) model based semantic role classification and integer linear	237
+FS = false start  E = echo  ADD = added information  SELF = talking to oneself 	238
+tasks or languages.  Amazon?s Mechanical Turk (MTurk) service facilitates inexpensive collection of large amounts of	239
+ iii. Simple_Rank (S-Rank): It is computed  based on Rank(i)=tfi*Len(i), which aims 	240
+The MRF provides the base frame to  combine various statistical information  with maximum entropy (ME) method. 	241
+annotation ? the Penn Chinese Treebank (CTB)(Xia et al, 2000), and the People?s Daily News (PDN) corpus from Beijing University.	242
+Sangkeun Jung, Cheongjae Lee, Kyungduk Kim, Gary Geunbae Lee Department of Computer Science and Engineering Pohang University of Computer Science and Technology(POSTECH) San 31, Hyoja-Dong, Pohang, 790-784, Korea	243
+6. A rule to convert the Hindi word into its  base form (BF). 	244
+for acquiring high quality non-expert knowledge from on-demand workforce using Amazon Mechanical Turk (MTurk). We show how 	245
+integral to membrane  membrane  The protein encoded by this gene is a receptor for interleukin 20 (IL20), a cytokine that may be involved in epidermal function.	246
+We evaluate the lexicons proposed in Section 3 both intrinsically (by comparing their lexicon entries against General Inquirer (GI) lexicon) and extrinsically (by using them in a phrase polarity anno-	247
+out of this phrase. The word with the parent out of  the phrase is called Head of Phrase (HP). The 	248
+ 1 Introduction Noun phrase (NP) coreference resolution, the task of determining which NPs in a text or dialogue re-	249
+Generation of Crisp Descriptions Arguably the most fundamental task in the generation of referring expressions (GRE), content determination (CD) requires finding a set of properties that jointly identify the intended referent.	250
+entities presence feature (DIC), numerical entities presence feature (NUM), question specific feature (SPE), and dependency validity feature (DEP). 	251
+3.1 Semantic Types In the present task, we use a subset of semantic types from the Brandeis Shallow Ontology (BSO), which is a shallow hierarchy of types developed as a part	252
+applied to the sentiment analysis problem. Models such as Na??ve Bayes (NB), Maximum Entropy (ME) and Support Vector Machines (SVM) can determine	253
+ Rank Group Lexical Features 1 HM HM1 (head of M1) HM2 (head of M2)	254
+Cross-lingual textual entailment (CLTE) (Mehdad et al., 2010) is an extension of textual entailment (TE) (Dagan and Glickman, 2004).	255
+1977).  The parameters of the IDCLM model are computed using the variational Bayes EM (VB-EM) procedure by maximizing the marginal distribution of the training data that contains a set of n-gram events	256
+ 2 Related Work Reference resolution (RR), which is the task of resolving referring expressions (REs) to what they are	257
+or fictional) world. These discourse ntities,  called reference objects (RefOs), are stored  and processed ina net-like structure, called a 	258
+then X Y =~ Z  then Y X ::~ Z  Permutation Closure of language L (PermL)  PermL = { s \[ s' in L and s is a per- 	259
+" I. Introduction  SABA (""Semantic Analyser , Backward Ap-  proach"") is an automatic parser of French "	260
+Proceedings of  the First International Symposium on Compurers and Chinese  Inpuf/Output Systems, Acadernig Sinico, 983-998  in the FCL (FACOM Composition Language) System, information is punched on paper tape  with a Kanji keyboard.	261
+In order to answer this question, we propose a new model called the Recursive Neural Tensor Network (RNTN). The main idea is to use	262
+In Proceedings of the 19th International Conference on Computational Linguistics (COLING), volume I, pages 267?273.	263
+tating full-text passages that describe the functional relationships between bio-entities summarised in a Molecular Interaction Map (MIM). Our corpus	264
+Abstract A number of issues arise when trying to scaleup natural language understanding (NLU) tools designed for relatively simple domains (e.g.,	265
+distance (EDIT), which is the Levenshtein distance between generated word string and human reference output, and string accuracy (S-A), which is the proportion of times the word string was identical to the	266
+The second column represents three SMT systems, namely: the baseline system adapted to the domain (DA), the same system with a CSLM (DA+CSLM) and the project adapted sys-	267
+(i)(a) If the verb is the last word  of the surface shape of the  sentence (SS), it always be-  longs to the focus.	268
+ In Expertise column, C=Computer Scientist, BI=Bioinformatician, B=Biologist, L=Linguist ?	269
+As is common practice for continuous features, we choose this pdf to be a Gaussian mixture model (GMM) since any continuous distribution can be approximated with ar-	270
+So, for example, the preposition in addition to (krom?) appears altogether in 309 instances in PDT,  within which there are 44 instances in the function of AltLex (automatically looked up). All 	271
+ Finally, we propose using the beam-search decoder to combine multiple discriminative models such as M3N and multiple generative models such as language models (LM) and perform multiple passes of disfluency detection.	272
+The first system, as its name suggests, is very  simple: using the WSD model, it chooses the  most frequent sense (MFS) of the lemma l with  POS p according to WN (that is, the lowest num-	273
+ 1 Introduction Margin infused relaxed algorithm (MIRA) has been widely adopted for the parameter optimization in	274
+ Our approach differs in important ways from the  use of hidden Markov models (HMMs) for class-  based language modeling (Jelinek et al, 1992).	275
+the semantics of the head noun of the reference  object. A noun phrase (NP) denoting a place  gives rise to a spatial PP.	276
+contact(CeNT) motion(MOT)  emoeion(ENO) perception(PER)  possession(POSS) stat ive(STA)  ~eather(WEA) ingestion(ING) 	277
+tropy modeling. Berger et al (1996) presents an incremental feature selection (IFS) algorithm, which computes the approximate gains	278
+pre-processed ATB (Table 10). Consequently, this particular Arabic MWE identification experiment is similar to joint parsing and named entity recognition (NER) (Finkel and Manning 2009).	279
+ficient. The remainder of the data can be partially addressed with noun phrase (NP) detectors (Abney, 1991; Ramshaw and Marcus, 1995; Mu?noz et	280
+Frame abbreviations:  INAN=inanimate NP, ANIM=animate NP, VBZ--inflected  main verb, IS=is, VBG=gerund, PP=prepositional phrase,  TO=to (prep.),	281
+2 where AF = adjusted frequency di = relative size of category i	282
+respective polarities. This new value will be called  Positive Association (PosA). The PosA value is 	283
+production strategies. In Proceedings of the 16th International Conference on Computational Linguistics (COLING?96), pages 249?254.	284
+paring to BL system (N.S.), the average number of alternative translations of each source phrase (T/S) and the average source phrase length in the output (A.L.) -1.80 on average TER.	285
+and Johnson, 2011), particularly from the DARPA EARS (Effective, Affordable, Reusable Speech-toText) MDE (MetaData Extraction) (DARPA Information Processing Technology Office, 2003) pro-	286
+lion words. From TIPSTER,  we used the Associ-  ated Press (AP), Wall Street Journal (WSJ), and  San Jose Mercury News (SJM) data, yielding 123, 	287
+Chinese sentence into a sequence of words. This is  the task of Chinese word segmentation (CWS), an  important and challenging task in Chinese NLP.	288
+Video in sentences out.  In Association for Uncertainty in Artificial Intelligence (UAI). 	289
+BOEING CO(BA) OTC  UTL USA  UTL CORP(UTLC)  BOEING'S ARGOSYSTEMS SUBSIDIARY TO MAKE TENDER OFFER FOR ALL UTL CORE SHARES 	290
+ For comparison we re-implemented the probabilistic Visual Objects Algorithm (VOA) of Mitchell et al(2013).	291
+ 2 Platform Architecture  The Application Generation Platform (AGP), created during the European project GEMINI, is an 	292
+The query-based selection model utilizes Support Vector Regression (SVR) models to predict the mean average precision (MAP) of each query from the ambiguity measures, and to choose an ap-	293
+will describe our method of automatically creating a training set based on the click-through links and how we build an SVM (Support Vector Machine) classifier with the integration of enriched informa-	294
+Mophological processing, syntactic parsing and  other useflfl tools have been proposed in the field  of natural language processing(NLP). Many 	295
+Computational Linguistics Volume 23, Number 2  1993c). FUF (Functional Unification Formalism) is a programming language based on  functional unification (Kay 1979).	296
+translation with overall understanding?.  Rhetorical structure theory (RST) (Mann and  Thompson, 1988) provides us with a good per-	297
+Sentences from TST2-MUC4-0048 Sl : SALVADORAN PRESIDENT-ELECT ALFREDO CRISTIAII CONDEMNED THE TERRORIST KILLING OF ATTORNE Y GENERAL ROBERTO GARCIA ALVARADO AND ACCUSED THE FARABUNDO MARTI NATIONAL LIBERATION FRONT (FMLN ) OF THE CRIME .	298
+Finally, the intention  translates into a call to UC's expression mechanism,  UCExpress (UCexpressl in the trace), which eventu-  ally calls UCGen to produce the answer.	299
+For 1http://maltparser.org/ English?Chinese (EN?ZH) word alignment, we observe that 75.62% of the consecutive Chinese	300
+28  Proceedings of the EMNLP 2014 Workshop on Arabic Natural Langauge Processing (ANLP), pages 39?47, October 25, 2014, Doha, Qatar.	301
+and  Communications Industry Association (CCIA) filed differing recommendations  with the OMB on Federal automatic data processing (ADP) procurement. CBEW 	302
+for many NLP applications including machine translation. In fact, Google Translate (GT)3 translates Examples (1) and (3) as ?	303
+Economics neighborhood f bank  bank  Subject Code EC = Economics  have it person out 	304
+" The meaning of complex phrases is represented as  a composed LCS (CLCS). This is constructed ""com- "	305
+which has been developed within the projects K1T-NASEV and its  successor KIT-FAST 2 will be described (for details see \[Hanen-  1 LP = Linear Precedence; FCR = Feature Co-oecmenee R striction  KIT-FAST (FAST = Functor-Argument Structure for Translation; KIT = 	306
+ 2 Universal Networking Language Universal Networking Language (UNL) is an interlingua that represents a sentence in a language inde-	307
+ Ckakraborty, Tanmoy, 2010, Identification of NounNoun (N-N) Collocations as Multi-Word Expressions  in Bengali Corpus.	308
+4.2 Dataset and preprocessing To evaluate the proposed approach, we use SemEval-2013 datasets: TW (tweets obtained by merging learn and development data) and SMS, in	309
+ The experiments were performed using the  Wall Street Journal (WSJ) corpus of the Uni-  versity of Pennsylvania (Marcus et al, 1993) 	310
+INIT MED FIN TOTAL 201 (87.8%) 13 (5.7%) 15 (6.5%) 229 Table 1: Distribution of the Position (POS) of Discourse Adverbials	311
+rada@cs.unt.edu Abstract Amazon Mechanical Turk (MTurk) is a marketplace for so-called ?	312
+tions and so on.  3.2 The Greedy Prepend Algorithm (GPA) To learn a decision list from a given set of training	313
+"legislatures, councils, ""other government bodies , I 1  and the private sector  should withhold action implementing major proposals for EFTS until the  National Commission on Electronic Fund transfers (NCEFT) has completed its  studies."	314
+ 2. Na?ve Bayesian approach with full vocabulary (NBF). It	315
+correction. ? P3E3N4S2, F W I Controlled Automotive Service Language (CASL) (Means and Godden 1996; Means, Chapman, and Liu 2000) is a controlled language for writing service manuals and bul-	316
+extend Eigenwords, spectral monolingual word embeddings based on canonical correlation analysis (CCA), to crosslingual settings with sentence-alignment.	317
+The initial translation outputs from Google Translate (GT) and the results of the targeted paraphrasing translation process (TP) were evaluated according to widely used critera of fluency and adequacy.	318
+"simultaneous (SML) with another proposition: ""Fred washed the car  while John chased Mary"", Figure 50 A sequenttal rn iering of proposi-  t ions is also found, characterized by a sequence (SEQ) relation. The "	319
+wards Task 2.  4.1 Wikipedia system (WIKI) In the WIKI data a sentence is marked as uncertain	320
+ 4. Coreference (COR) As mentioned in our discussion of transitional phrases, a strong argument	321
+Bayesian Networks (Samuelsson, 1993), Neural  Networks (Marques and Lopes, 1996) and  Conditional Random Fields (CRF) (Lafferty et  al.,	322
+Evaluation Metrics: We evaluate the performance of question retrieval using the following metrics: Mean Average Precision (MAP) and Precision@N (P@N).	323
+quen cies Figure 6: Distribution of Ratio of Frequencies(RF) values over the nouns in the corpus	324
+system utterances with respect o dialog context.  Utterances can be either appropriate (AP), inappro-  priate (IP), or ambiguous (AM).	325
+ 2.2 Tree substitution grammars Tree substitution grammars (TSGs) allow for complementary analysis.	326
+ 2 Background and Related Work Amazon?s Mechanical Turk (MTurk) is an online marketplace for work that gives employers	327
+the points plus 10% of the surrounding area. For this, The Generic Map Tools (GMT)10 were used, in this case via HTTP.11	328
+entry description to a lexeme. A part-of-speech of the lexeme is set to a common noun (NN ) where the minimum word probability of NN is assigned	329
+ary, we assign a default value 3.0.  3.2 Named Entities (NE)  Named Entities are important semantic information 	330
+"2.1 Processing definitions  Our algorithms are used in an overall system  called ""onomasiological search system"" (OSS),  whose aim is to allow the user to find terms by "	331
+In MT Summit XIII: the Thirteenth Machine Translation Summit [organized by the] AsiaPacific Association for Machine Translation (AAMT), pages 513-520.	332
+guished from mentions in text or mentions in other sources. The Terence Annotation Format (TAF) provides a unified framework to annotate events, par-	333
+Subjacency sub-  sumes, as well as other principles, Ross's lO  Complex Noun Phrase Constraint (CNPC), which  prohibits movements out o f~-NpNPS ~ structures, 	334
+We report both the aggregate curves precision/recall curves and Precision@N (P@N) in our experiments.	335
+On the source-language side of the  corpus we will automatically generate lists of  frequent multiword expressions (MWEs) and  grammatical constructions using the methodology 	336
+al. were entered into Graph Spider using the  metapattern language (MPL) designed by the  Graph Spider authors.	337
+In interaction with the user, the system should play the role of an Information Search Assistant (ISA). 	338
+ducted experiments on the same dataset for sentence identification using interaction patterns generated by another pattern generating algorithm (PGA) (Huang et al.,	339
+{zhaosq,xlan,tliu,lisheng}@ir.hit.edu.cn Abstract Paraphrase generation (PG) is important in plenty of NLP applications.	340
+1. Introduction Word segmentation is an important task in natural language processing (NLP) for languages without word delimiters (e.g., Chinese).	341
+of derivations. Each such derivation is realized in  PROVERB by a proof communicative act (PEA),  following the viewpoint hat language utterances are 	342
+ Introduction The Penn Chinese Treebank (CTB) is an ongoing project, with its objective being to	343
+News stories typically describe real-world events.  Topic detection and tracking (TDT) aims to detect stories that discuss identical or directly related	344
+For Arabic, morphological segmentation is performed by MADA 3.2 (Habash et al, 2009), using the Penn Arabic Treebank (PATB) segmentation scheme as recommended by El Kholy and Habash	345
+In ear l ier  papers devoted to interpersonal  interaction iFrank,1981; Levinson,1981\] much atten-  tion is paid to studying the role of speecb act (SA)  i n  d ia logue  s t ructure .	346
+we can use these annotations to measure an average precision across the precision-recall curve, and an aggregate mean average precision (MAP) across all relations.	347
+ ? BLEU (bilingual evalutation understudy) score: This score measures the precision of unigrams, bigrams, trigrams, and 4-grams with respect to a	348
+2007 task into four sub-tasks: (1) target word frame disambiguation (TWFD); (2) FE boundary detection (FEBD); (3) GF label classification (GFLC) and (4) FE label classification (FELC).	349
+ Table 2 shows part of a decision list for the target noun chicken that was learned from a subset of the BNC (British National Corpus) [17]. Note that the	350
+The table shows percentage of phrases that we have to retain. ES=Spanish, EN=English, FR=French, CS=Czech, DE=German. 	351
+josefr@coli.uni-sb.de Abstract Active Learning (AL) has been proposed as a technique to reduce the amount of annotated	352
+ 2.1 Weighted regular tree grammars A weighted regular tree grammar (WRTG) is a 4tuple G = (S,L,R, s`), where S and L are two	353
+(i) identify the scope of coordinations regardless of phrase types, and (ii) detect noun phrase (NP) coordinations and identify their scopes.	354
+ 1 Introduction Among many natural language processing (NLP) tasks, such as text classification, question answer-	355
+(01) AT (Singular Article)  (03) BED (were)  (05) BEG (being)  (07) BER (are, 're) 	356
+In Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI?77), page 67=76. 	357
+In Proc. of the Human Language Technologies (HLT): The Annual Conf.	358
+We experimentally evaluated the test collection for single document summarization contained in the RST Discourse Treebank (RST-DTB) (Carlson et al.,	359
+implementation of SVM.  Lexical Classifier (LC): This method calculates the number of positive words and negative words	360
+ (Undecided) Meronym(MER)  (a) IF x=ANT 	361
+organizations in knowledge mining approaches to  master this information for quality assurance or  Customer Relationship Management (CRM) purposes.	362
+12 Interac Figure 2: Upper chart: Turn-wise Interaction Quality (IQ) annotation from 3 raters. The final label is the median of	363
+We annotate the relation node in the path with the exact relation word (as a lexical constraint) and the POS (postag constraint). We create a re-	364
+(#classes) with respect o each part of speech.  Table 1 Outline of Bunruigoihy3 (BGH)  POS noun I verb adj other total 	365
+ Conditional Random Field  A conditional random field (CRF)[5] can be seen  as an undirected graph model in which the nodes 	366
+VIOLATED EXPECTATION (Ho) NONVOLITIONAL-RESULT (M&T) EXPLANATION (Ho) ( CAUSAL  ADDITIVE ) - RESULT (A&L) ( SEMANTIC  PRAGMATIC ) - EXPLANATION (A&L)	367
+ 5 Conclusion Our approach is akin to so-called semantic role labelling (SRL) approaches [CM05] and to several rewriting approaches developed to modify parsing output in RTE systems [Ass07].	368
+   (5) Flattened CPT (FCPT): the CPT with the  single in and out arcs of non-terminal nodes (ex-	369
+two requirements. Since it has to be transformed  into context?free grammar (CFG) for recognition,  features must have a finite number of values, as 	370
+capture various relationships related to the predicate, we assign function label ? ADT (adjunct)? for	371
+SN  where CN = common oun  PN = proper name  SN = Sa-inflection oun (nominal verb) 	372
+ They solve this by formulating the problem as a quadratic assignment problem (QAP). But, even	373
+on its n?1 previous tokens, i.e. we directly model the following conditional probability (in practice, we choose n = 3, Tri-gram (TRI) ): p(w	374
+on adjunction (Joshi, 1987):  ? Null adjunction (NA): disallow any adjunc-  tion on the given node.	375
+It takes an examplebased approach to recognize IV words and follows description length gain (DLG) to infer OOV words in terms of their text compression effect.	376
+8. Strong forms of pronouns not preceded by a preposition (unless they carry IC) t Table 1: Annotation guidelines; IC = Intonation Center. 	377
+ 1 Introduction Topical Text Categorization (TC), the task of classifying documents by pre-defined topics, is most	378
+As an example, the following arrow property says that within an interrogative phrase (Pint), an interrogative chunk (IntC) with an interrogative pronoun inside (pint) ar-	379
+Controlled English at Douglas SMART Controlled English ASD Simplified Technical English (ASD-STE) AECMA Simplified English (AECMA-SE)	380
+16: end while 17: return builtPPs 3.3 Extended GNPPA (E-GNPPA) The GNPPA described in section 3.1 assumes that	381
+  3.3 Optimality Theory  Optimality Theory (OT) is a theory of language  and grammar, developed by Alan Prince and Paul 	382
+1001   Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 844?853, October 25-29, 2014, Doha, Qatar.	383
+2 tMi The two parameter classes for generating modifying nonterminals that are children of base NPs (NPB nodes), PM,NPB and PMw,NPB, have the following back-off structures. 	384
+being developed as an Apache incubator project.  UIMA?s Common Analysis System (CAS) is used to describe typed objects (annotations) associated	385
+Sane: ..PERJANTAINA (pltkanl iper jantalna)  PER3ANTAI FRIDAY Noun $8 Eaa  Sane: PITK&KSI.. (p i tk ika iper Janta iks i )   PITK& LI3NG Ad ject ive  $8 Trane l  	386
+115  Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 566?576, October 25-29, 2014, Doha, Qatar.	387
+831 . . . demonstrated that HOIL-1L interacting protein (HOIP), a ubiquitin ligase that can catalyze the assembly of linear polyubiquitin chains, is recruited to DC40 in a TRAF2-dependent manner following engagement of CD40 . . .	388
+tasks. While having the same model structure as Hidden Markov Models (HMMs), CRFs are trained discriminatively and can use large numbers of corre-	389
+derstanding our approach.  2.1.1 The Conversat ional  Roles Model  (COR)   In the field of information retrieval (IR) the interactive 	390
+evt EVENT lfr LIVING THING sub SUBSTANCE fod FOOD lme LINEAR MEASURE tme TIME Table 1: The 39 CoreLex basic types (BTs) and their WordNet anchor nodes Basic type WordNet anchor Examples	391
+The first observation is that the task is quite difficult as evidenced by extremely poor performance  of the bag of words approach (BOW). The correct 	392
+Table 3 describes the used data sets.  Assault Weapons (AW) 4	393
+ Definition 1 A character string ABC is called an overlap ambiguity string (OAS) if it can be segmented into two words either as AB/C or A/BC (not both), depending on context.	394
+ Irish students do not receive any instruction in  Modern Foreign Languages (MFL) up until this  point (Irish is not considered a MFL).	395
+resulting grammar. We cast the minimization as an integer linear program (ILP). Let V be the set of	396
+L J  = lea:-ncd j o u r n a l s   PJ - 1 journals  NR = newt;pc?pcr reportasc  F = fictlon 	397
+icoglu and Bergler, 2009). The second group uses a  machine learning (ML)-based approach which exploits various specific features and learning algo-	398
+1 The  SCAN System  SCAN was developed for the TREC-96 SDR task,  a known item information retrieval (IR) task from  approximately 47hours of the NIST/DARPA HUB4 	399
+Department of Linguistics, ? Center for the Preservation of Ancient Religious Texts (CPART) Brigham Young University	400
+145  Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1092?1103, October 25-29, 2014, Doha, Qatar.	401
+Specifically, we investigate dialectal language in publicly available Twitter data, focusing on AfricanAmerican English (AAE), a dialect of Standard American English (SAE) spoken by millions of peo-	402
+? ?  Table 4: Results for the best baseline (B5) and the learning to rank method (LTR), using all entity pairs in the dataset, including those without any relevant sentences.	403
+active (ACT) and passive (PASS) 3. causative (CAUS) 4.	404
+problems. Informally, a CRF bears resemblance to a Hidden Markov Model (HMM) in which, for each input position in a sequence, there is an observed	405
+Gambling neighborhood f bank  bank  Subject Code GB = Gambling  person use money piece 	406
+He poured wine from the barrel into the bottle The semantic description of (20) appeals to an intermediate locus IME(LOC), which is not specified here.	407
+UC 3 NLP, 1 BioNLP ML (Weka SVM) Table 2: Participation. UU = UofU, UZ = UZH, CU=ConcordU, UT = UTurku, UZ = UZH, US =	408
+ratio of the number of completely corrected generated MIUs over the number of all MIUs, and character accuracy (Ch-Acc), but the sentence accuracy (S-Acc) will also be reported in evaluation	409
+They are Na?ve  Bayes (NB), Support Vector Machine (SVM),  Maximum Entropy (MaxEnt) (Kamal Nigam et al  1999) and standard chain CRFs (Fei et al 2003).	410
+The similarity of decisions can be evaluated by calculating the proportion of identical decisions (PID)when comparing the test results with those of the gold stan-	411
+ ? HybFSum (Hybrid Flat Summarizer): To investigate the performance of hierarchical topic	412
+been proposed in \[Uszkoreit 87\]: p.145 in his German  grammar. It makes the adverbial phrase (AdvP) a sister  node of the verb and its arguments: 	413
+(Zhao et al, 2014), The Meaning Factory (Bjerva et al, 2014), UNAL-NLP (Jimenez et al, 2014), and Illinois-LH (Lai and Hockenmaier, 2014). 	414
+sentence, Multiple Linear Regression is used to  build a quantitative model relating the content  tags of the source language (SL) sentence to the  response, which is assumed to be the sum of the 	415
+Commentary We distinguish three types of events in the domain: identification (ID) events trigger the system to name the street the car is on, turn events fire	416
+For biomedical terms other than genes/gene products, the Unified Medical Language System (UMLS) meta-thesaurus (Lindberg et al, 1993) is a large	417
+snippets with a frequency higher than three. Then we calculate the inverse sentence frequency (ISF) for these phrases using the entire ICSI meeting corpus.	418
+ 1 Introduction In recognizing textual entailment (RTE), automated systems assess whether a human reader	419
+A decade ago, students interested in natural language processing arrived at universities having been exposed to the idea of machine translation (MT) primarily through science fiction.	420
+man annotators identified in the texts. TP (true positives) is |A?G|, FP (false positives) is |A\G|, FN (false negatives) is |G\A|, and precision (P ),	421
+We report results for the ATAS versions (ATAS-TC, ATAS-CRF) and for the baselines (Z-CRF, C-value, FRTC) as well as for using supervised (S-SEL) and unsupervised feature selection (U-SEL) in system setting (S) and gold boundary setting (G).	422
+amjbara@umich.edu Abstract The ACL Anthology Network (AAN)1 is a comprehensive manually curated networked	423
+where Q(w,w?) is proportional to the integral term in Equation (IX). The term PC(w) corresponds	424
+Their by-country breakdown is as follows: 3.99M (61%) from Saudi Arabia (SA), 880K (13%) from Egypt (EG), 707K (11%) from Kuwait (KW), 302K (5%) from United Arab Emi-	425
+section 8.1). Then, the grammar underlying the parser is provided with a specific attachment heuristic that uses corequirement (CR) information from the lexicon. 	426
+ In line 4, G91 provides an Acknowledge type of evidence, and Moves On to the next task item: identifying the Target Location - Grid (TL-GR) of the CFF. The Acknowledge and Move On, referring to the CGU	427
+ With basic CG there are just two rules for combining categories: the forward (FA) and backward (BA) functional application rules.	428
+To overcome this problem, Shen et al (2008) proposed a dependency language model (DLM) to exploit longdistance word relations for SMT.	429
+Abstract In this paper, we explore the possibility of leveraging Residual Networks (ResNet), a powerful structure in constructing extremely	430
+the end we build two NGCMs: NGCMP  (NGCM according to preceding context) and  NGCMS (NGCM according to succeeding  context).	431
+Ures uniformly (Dadam et al, 1986). Our LDB  rmat and Lexical Query l_anguage (LQL) sup-  port the hierarchical model for dictionary data; 	432
+The Office. Television series, the National Broadcasting Company (NBC). 	433
+ 1 Introduction Question Answering (QA) is a challenging task that draws upon many aspects of NLP.	434
+opment and sentence generation. Report, German National Center for Information Technology (GMD),  Institute for integrated publication and information systems (IPSI), Darmstadt, Germany, January 1997. 	435
+knowledge, mnong others in l:'ei~onal or DBMT systems.  Such Discovery Assistants (DA) slmuld certainly be  highly cooperative, namely show sensible interactivity 	436
+pact of syllabification on the L2P problem in English. Their Syllabification by Analogy (SbA) algorithm is a data-driven, lazy learning approach.	437
+1 Introduction Resolving the ambiguity of person names in web search results is a challenging problem becoming an area of interest for Natural Language Processing (NLP) and Information Retrieval (IR) communities. 	438
+In Proceedings  from the 16th International Conference on  Computational Linguistics (COLING-96), pages  592-597.	439
+e .g .  M C ~  --7 SUM + PRED* + IOBJ + WBJ + PREP P  *PRED = predicator - not predicate  1-1  detailed analysis of first occurring element of 	440
+We think, based on the explicit sentences, several Support Vector Machine (SVM) classifiers can be established to do this task.	441
+average values. Figure 6 shows the average pitch of the phrase do you have in task interruption (INT) and poker-playing (PKR) of each player, with the actual values displayed in the columns below.	442
+enizes, tags, lemmatizes and parses the input sentences, outputting syntactic trees and then adding grammatical relations (GR) as described by (Buttery and Korhonen, 2005).	443
+ We discuss the available functions of the  prototype Chinese Sketch Engine (CSE) as well  as the robustness of language-independent 	444
+tionary. In (Zingarelli, 2008), we found 33 different types of prepositional phrases (PPs), which we grouped into 21 classes (for instance, all of the 48	445
+for Statistical Machine Translation Shixiang Lu, Zhenbiao Chen, Bo Xu Interactive Digital Media Technology Research Center (IDMTech) Institute of Automation, Chinese Academy of Sciences, Beijing, China	446
+overall scores considering all metrics. To these systems we added minimum Bayes risk (MBR) decoding (Kumar and Byrne, 2004).	447
+(see also Sima?an, 1999, 2003). We haven?t implemented the max rule product (MRP) where posteriors are multiplied instead of added (Petrov and	448
+of the intuition behind the inclusion of Tree Adjoining Lan-  gages (TAL) in the class of languages generated by a variant  of HG's called Modified Head Grammars (MHG's). In the 	449
+If a goal is not accomplished before worst-time  timeout value,  ACCUMVALUE = ACCUM.VALUE - \[response-  complexity(punishment) * sub-goal(worst-ease timeout punis- 	450
+Each of these sets is further divided by three domains: newswire (NWire), newspaper (NPaper), and broadcast news (BNews). 	451
+The set of ncs in ? are selected from all the possibilities in the hyponym hierarchy according to the minimum description length (MDL) principle (Rissanen 1978) as used by Li and Abe (1995, 1998).	452
+However, we are interesting in the potential power of our model by incorporating lexical reordering (LR) models and comparing it with syntax-based models.	453
+ In the next sections, we briefly introduce the kernel trick and describe the subtree (ST) kernel devised in Vishwanathan and Smola (2002), the subset tree (SST) kernel defined in Collins and Duffy (2002), and the partial tree (PT) kernel proposed in	454
+*****- TRANSFOREATIONS * l f**   SCAN CALLED AT 1 I  ANTEST CALLED FOR 12?F ALAT 3 (AACC) ,SO= 13. RES= 0, TOP= 1:s 	455
+ ? Shallow Syntactic Similarity (SP) SP-Op-?.	456
+"using only a single, probable alignment."" The single most probable assignment Ama~  is the maximum a posteriori (MAP) assignment:  Amax = ar~maxPr(U,A, VIO ) (22) -- AE~4 "	457
+Sentence). The dependency labels are NK (Noun Kernel), SB (Subject), AO (Object Accusative), HD (Head), MO (Modifier), AC (Adpositional Case Marker), CJ (Conjunct), and OC (Clausal Object).	458
+ Semantic relatedness of two given terms (text fragments, phrases or words) can be obtained by calculating the correlation between two high dimensional vectors of a Distributional Semantic Model (DSM), which is based on the assumption that semantic meaning of a text can be inferred from its usage in context	459
+An integrated, conditional model of information extraction and coreference with application to citation graph construction. In 20th Conference on Uncertainty in Artificial Intelligence (UAI). 	460
+4 Experiments In this section, we evaluate performance of different methods on the Relation Schema Induction (RSI) task.	461
+We developed and tested our system on 30 full  length UK archaeological reports archived by the  Arts and Humanities Data Service (AHDS)4. 	462
+formance. They are the One-error Loss (O-Loss) function, the Symmetric Loss (S-Loss) function, and the Hierarchical Loss (H-Loss) function:	463
+Instead of simple web page counts and complex  web page collection, we propose a novel model,  a Web Search with Double Checking (WSDC), to  analyze snippets.	464
+hedge words Table 3: Participants and summary of system descriptions. Abbreviations: BI=Bioinformatician, NLP=Natural Language Processing researcher, SDE=Software Development Engineer, CoreNLP=Stanford CoreNLP, Porter=Porter	465
+ 4 Dimensionality Reduction In this section, the Sparse Projection (SP) algorithm is described (see also Algorithm 1). SP is the core	466
+2.2 Hierarchical Agglomerative Clustering After discovering sense clusters of paths, we employ hierarchical agglomerative clustering (HAC) to discover semantic relations from these sense clusters.	467
+extremely limited in this domain. Thus, language 1KEY: COM=completive aspect, DEM=demonstrative, DIR=directional	468
+ 2 Background: MaxEnt Models Maximum Entropy (MaxEnt) models are widely used in Natural Language Processing (Berger et	469
+is set to 0.95 and threshold_f is set to 1;  Step 3. Use TCT (triple context template) matching  model to extract 2-char, 3-char and 4-char 	470
+trigger in the Trigger Rule Factbase.  Consistency Checkers ( CC' s): Report  inconsistencies within and between factbases and, 	471
+task: Argumentative Zoning (Teufel and Moens, 2002). Argumentative Zoning (AZ) is the task of applying one of seven discourse level tags (Fig-	472
+ture of I end set to 1.  Unique Occurrences and Zone (UNIQ): This group of features indicates whether the word 	473
+examples in (5). This change in beliefs about the past is treated as an error identification signal (EIS). 	474
+non-terminal symbols to characterize linguistic objects allow us to use much richer statistical means such as ME (maximum entropy model), etc.	475
+An example of a comma rule is the following: SX=S X ; ? SX=S X (18)	476
+recognition. In Proceedings of the 26th Conference on Artificial Intelligence (AAAI). 	477
+nication after speech and email.4 Millions of users of instant messaging (IM) services and short message service (SMS) generate electronic content in a dialect that does not adhere to conventional gram-	478
+speech recognition (ASR), dialog management (DM), database access (DB Access), data storage (DB) and oral response generation (RG). In ad-	479
+classifier.  6.1   Language Model (LM)  As language model has already been used in question classification [7], it is taken as 	480
+argument facet inducer. We introduce a new task of ARGUMENT FACET SIMILARITY (AFS). We discuss	481
+Question reformulation ? Information Extraction (IE) ?	482
+results training on Multi-Domain Sentiment Dataset and testing on citation dataset (CITD). The horizontal line	483
+ In this paper, we propose to disambiguate NEs using a Personalized PageRank (PPR)-based random walk algorithm.	484
+coverage of the course material.  The quality estimation task (QET) (CallisonBurch et al 2012) aims to develop quality indica-	485
+4.2 Evaluation of Different Representation Learning Methods Experiment Setup and Dataset We conduct sentiment classification of items in two traditional sentiment lexicons, HL (Hu and Liu, 2004) and MPQA (Wilson et al., 2005), to evaluate the effective of the	486
+match number, SM (Short Match) is the continuous match number which is no more than 4, and LM (Long Match) is the continuous match number which is more than 4.	487
+are written in the original language.  Direct orthographical mapping (DOM), which performs the transliteration between two lan-	488
+for each mention, four pieces of information: 1. the mention type: person (PER), organization (ORG), location (LOC), geopolitical en-	489
+degree of semantic equivalence between a pair of texts. Natural Language Processing (NLP) applications such as Question Answering (Lin and	490
+from comparable in-domain corpora. We used the AFP (Agence France Presse) and APW (Associated Press Worldstream Service) news texts since there	491
+additional computation costs, and can be applied to  several different learners, such as Naive Bayes  (NB), Maximum Entropy (ME), and Support  Vector Machines (SVMs) models.	492
+train statistical models that rely on annotated data.8 In this paper, we test automatic annotation using Conditional Random Fields (CRFs) (Lafferty et al, 2001) which have achieved high performance for in-	493
+measured on separate grammatical and ungrammatical data: Gr = Grammatical, AG = Agreement, RW = Real-Word, EW = Extra Word, MW = Missing Word	494
+Schu?tze reduces the dimensionality of this feature space using Singular Value Decomposition (SVD), which is also employed by related techniques such as Latent Semantic Indexing (Deerwester et	495
+is a.t least cubic in t, ime, this fl)llows trivially  fronl the inequality  A a+B a <A a+:C4 ~B+aAB=+B a =(A+B)  a  for A,B positive - length of strings) 	496
+present specialized knowledge, since both the writer and readers are experts. Medical texts include the abstracts of all medical articles written in Basque in the Gaceta M?edica de Bilbao (GMB) ? Medical	497
+2014). We note the linguistic rules included in the Lease, Johnson & Charniak (2006) tree adjoining grammar (TAG) noisy-channel model ? lexical,	498
